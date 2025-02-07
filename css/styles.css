@@ -1,3 +1,18 @@
-body {
-    background-color: rgb(189, 106, 138);
+/* Colors */
+
+
+/* 
+60% of #261C33
+30% of #54585
+10% of #DF7798
+*/
+:root {
+
+/* var(--primaryColor) !important; */
+--primaryColor: #261C33
+/* var(--secondaryColor) !important; */
+--secondaryColor: #54585
+/* var(--accentColor) !important; */
+--accentColor: #D57798
+
 }
