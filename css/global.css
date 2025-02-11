@@ -2,16 +2,18 @@
 
 
 /* 
-60% of #261C33
-30% of #54585
-10% of #DF7798
+60% of #261C33 - Primary
+30% of #373A66 - Secondary
+10% of #DF7798 - Accent
 */
 :root {
 
     /* var(--primaryColor) !important; */
-    --primaryColor: #261C33
+    --primaryColor: #261C33;
+
     /* var(--secondaryColor) !important; */
-    --secondaryColor: #54585
+    --secondaryColor: #373A66;
+
     /* var(--accentColor) !important; */
-    --accentColor: #D57798
+    --accentColor: #D57798;
 }
