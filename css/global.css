@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
 /* Colors */
 
 
@@ -16,4 +19,7 @@
 
     /* var(--accentColor) !important; */
     --accentColor: #D57798;
+
+      /* var(--fontFamily) !important; */
+      --fontFamily: "Delicious Handrawn", serif;
 }

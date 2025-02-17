@@ -1,0 +1,46 @@
+.col {border: 1px solid black}
+
+
+.col:nth-of-type(2) {
+    background-color: rgb(40, 42, 134); 
+} 
+
+.col:nth-of-type(3) {
+    background-color: rgb(107, 109, 207); 
+} 
+
+.col:nth-of-type(4) {
+    background-color: rgb(187, 36, 129); 
+} 
+
+.col:nth-of-type(5) {
+    background-color: rgb(30, 162, 167); 
+} 
+
+.col:nth-of-type(6) {
+    background-color: rgb(229, 255, 0); 
+} 
+
+.col:nth-of-type(7) {
+    background-color: rgb(0, 162, 255); 
+} 
+
+.col:nth-of-type(8) {
+    background-color: rgb(58, 0, 55); 
+} 
+
+.col:nth-of-type(9) {
+    background-color: rgb(0, 4, 255); 
+} 
+
+.col:nth-of-type(10) {
+    background-color: rgb(139, 140, 211); 
+} 
+
+.col:nth-of-type(11) {
+    background-color: rgb(141, 124, 137); 
+} 
+
+.col:nth-of-type(12) {
+    background-color: rgb(42, 250, 198); 
+} 
