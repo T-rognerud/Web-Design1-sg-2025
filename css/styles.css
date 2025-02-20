@@ -9,4 +9,6 @@ body {
 }
 
 .blinn-fa-icon {font-size: 80px;
-color:crimson;}
+color:rgb(221, 132, 191);}
+
+.blinn-fa-container {background-color: var(--secondaryColor) !important;}
