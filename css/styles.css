@@ -15,5 +15,9 @@ color:rgb(221, 132, 191);}
     background-color: var(--secondaryColor) !important;
 padding: 50px;}
 
-.paragraph-1 {position: relative;
-float: right}
+.paragraph-1-img {position: relative;
+float: right;
+max-width: 350px;
+width: 100%;
+height: auto;
+padding-left: 15px;}
