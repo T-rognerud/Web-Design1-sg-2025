@@ -2,7 +2,7 @@
 
 @import 'main.css';
 
-body {
+p {
 
     font-family: var(--fontFamily) !important;
 
@@ -14,3 +14,4 @@ color:rgb(221, 132, 191);}
 .blinn-fa-container {
     background-color: var(--secondaryColor) !important;
 padding: 50px;}
+
