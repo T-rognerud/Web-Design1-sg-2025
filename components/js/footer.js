@@ -7,25 +7,22 @@ class Footer extends HTMLElement {
     this.innerHTML = `
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar w/ text</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span <i class="fa-brands fa-youtube"></i> </span>
-  </button>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">Minecraft Builds</a>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#"><i class="fa-brands fa-youtube"></i></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
       </li>
     </ul>
     <span class="navbar-text">
-      Navbar text with an inline element
+      Builds created by Taylor! 
     </span>
   </div>
 </nav>
