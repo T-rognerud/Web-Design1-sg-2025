@@ -9,8 +9,9 @@ class Footer extends HTMLElement {
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar w/ text</a>
-   <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #D57798;">
-          <i class="fab fa-youtube"></i>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span <i class="fa-brands fa-youtube"></i> </span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
