@@ -3,32 +3,29 @@ class Footer extends HTMLElement {
     super();
   }
 
-
-
   connectedCallback() {
+    this.innerHTML = `
 
 
-      fetch('/components/footer.html')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.text(); // or response.json() if it's a JSON file
-      })
-      .then(data => {
-        console.log('Document content:', data);
-        // Further processing of the document content
-      
-        var globalData = data;
-        this.innerHTML = globalData;
-      
-      })
-      .catch(error => {
-        console.error('There was a problem fetching the document:', error);
-      });
+<footer><div class="container my-5">
 
+    <footer class="text-center text-lg-start" style="background-color: #261C33;">
+      <div class="container d-flex justify-content-center py-5">
+        </button>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #D57798;">
+          <i class="fab fa-youtube"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #D57798;">
+          <i class="fab fa-instagram"></i>
+        </button>
+      </div>
 
+    </footer>
     
+  </div>
+</footer>
+
+          `;
   }
 }
 
