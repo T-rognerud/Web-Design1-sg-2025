@@ -7,7 +7,7 @@ class Header extends HTMLElement {
       this.innerHTML = `
 
 
-<!--    <header>
+  <header>
       <!--begin navbar-->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -45,7 +45,7 @@ class Header extends HTMLElement {
         </div>
       </nav>
       <!--end navbar-->
-    </header> -->
+    </header> 
 
             `;
     }
