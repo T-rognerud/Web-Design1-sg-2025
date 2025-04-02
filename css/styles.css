@@ -12,7 +12,7 @@ p {
 color:rgb(221, 132, 191);}
 
 .blinn-fa-container {
-    background-color: var(--secondaryColor) !important;
+    background-color: var(--accentColor) !important;
 padding: 50px;}
 
 .paragraph-1-img {position: relative;
