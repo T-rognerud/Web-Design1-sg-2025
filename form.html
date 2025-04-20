@@ -55,41 +55,46 @@
  <!--Email-->
 <div>
   <Label for="email">Email</Label>
-  <input type="email" name="email"/>
+  <input type="email" id="email" name="email"/>
 </div>
 
 <!--Phone-->
 <div>
   <label for="phone">Phone Number</label>
-  <input type="text" name="phone" placeholder="(###) ###-####" />
+  <input type="text" id="phone-number" name="phone" placeholder="(###) ###-####" />
 </div>
 
 <!-- Start Date - date -->
 <div>
   <label for="start-date">Start Date</label>
-  <input type="date" name="startDate" reqired />
+  <input type="date" id="start-date" name="startDate" reqired />
 </div>
 <!--Tshirt - select field -->
 <div>
   <label for="t-shirt">T-Shirt Size</label>
   <select id="t-shirt" required>
 <option value="">Select T-shirt size</option>
-<option value="">XXS</option>
-<option value="">XS</option>
-<option value="">S</option>
-<option value="">M</option>
-<option value="">L</option>
-<option value="">XL</option>
-<option value="">XXL</option>
+<option value="XXS">XXS</option>
+<option value="XS">XS</option>
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+<option value="XXL">XXL</option>
+<option value="CUSTOM">CUSTOM</option>
   </select>
   <input type="text" name="custom" placeholder="please input a custom size" disabled />
 </div>
 
-
+<!--Tshirt Color - Color -->
+<div>
+  <label for="color">Tshirt Color</label>
+  <input type="color" name="color" id="color" />
+</div>
 
             <!--submit button-->
             <div>
-              <input type="submit" name="submit" value="Volunteer Now" />
+              <input type="submit" name="submit" value="Volunteer Now" class="submit" />
             </div>
           </div>
         </form>
