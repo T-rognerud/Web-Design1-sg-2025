@@ -28,7 +28,7 @@
     <main>
       <!--form-->
 
-      <!--first name-->
+<!--first name-->
       <div class="web-form">
         <form>
           <div class="row">
@@ -36,6 +36,56 @@
               <label for="first-name">First Name</label>
               <input type="text" id="first-name" name="firstName" />
             </div>
+
+ <!--Last name-->
+ <div class="web-form">
+  <form>
+    <div class="row">
+      <div>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="lastName" />
+      </div>
+
+ <!--Age - number -->
+      <div>
+<label for="age">Age</label>
+<input type="number" name="age" id="age" min="18" max="120"/>
+      </div>
+
+ <!--Email-->
+<div>
+  <Label for="email">Email</Label>
+  <input type="email" name="email"/>
+</div>
+
+<!--Phone-->
+<div>
+  <label for="phone">Phone Number</label>
+  <input type="text" name="phone" placeholder="(###) ###-####" />
+</div>
+
+<!-- Start Date - date -->
+<div>
+  <label for="start-date">Start Date</label>
+  <input type="date" name="startDate" reqired />
+</div>
+<!--Tshirt - select field -->
+<div>
+  <label for="t-shirt">T-Shirt Size</label>
+  <select id="t-shirt" required>
+<option value="">Select T-shirt size</option>
+<option value="">XXS</option>
+<option value="">XS</option>
+<option value="">S</option>
+<option value="">M</option>
+<option value="">L</option>
+<option value="">XL</option>
+<option value="">XXL</option>
+  </select>
+  <input type="text" name="custom" placeholder="please input a custom size" disabled />
+</div>
+
+
 
             <!--submit button-->
             <div>
@@ -61,6 +111,10 @@
       <script src="components/js/header.js"></script>
       <!--Local JS file with Footer-->
       <script src="components/js/footer.js"></script>
+
+<!--local JS file for form-->
+<script src="/js/form.js"></script>
+
     </section>
   </body>
 </html>
