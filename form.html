@@ -30,7 +30,7 @@
 
       <!--first name-->
       <div class="web-form">
-        <form>
+        <form class="needs-validation" data-netlify="true" novalidate>
           <div class="row">
             <div class="col-12 col-xxs-12 xol-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="first-name">First Name</label>
@@ -98,26 +98,26 @@
             <!--Participating In - Rabio Buttons-->
             <div class="col-12 col-xxs-12 xol-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <strong>Participating In</strong><br />
-              <input type="radio" name="paricipation" id="fashion-show" value="Fashion Show" required class="form-control radio" />
+              <input type="radio" name="paricipation" id="fashion-show" value="Fashion Show" required class="form-check-input radio" />
               <label for="fashion-show">Fashion Show</label>
 
-              <input type="radio" name="paricipation" id="donations" value="donations" required class="form-control radio" />
+              <input type="radio" name="paricipation" id="donations" value="donations" required class="form-check-input radio" />
               <label for="donations">Donations</label>
 
-              <input type="radio" name="paricipation" id="expectator" value="expectator" required class="form-control radio" />
+              <input type="radio" name="paricipation" id="expectator" value="expectator" required class="form-check-input radio" />
               <label for="expectator">Expectator</label>
             </div>
 
             <!--Time Of Day - Checkbox Fields-->
             <div class="col-12 col-xxs-12 xol-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <strong> Time Of Day </strong><br />
-              <input type="checkbox" name="timeOfDay" id="time-of-day-morning" value="Morning" required class="form-control checkbox timeOfDay" />
+              <input type="checkbox" name="timeOfDay" id="time-of-day-morning" value="Morning" required class="form-check-input checkbox timeOfDay" />
               <label for="time-of-day-morning">Morning</label>
 
-              <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" value="Afternoon" required class="form-control checkbox timeOfDay" />
+              <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" value="Afternoon" required class="form-check-input checkbox timeOfDay" />
               <label for="time-of-day-morning">Morning</label>
 
-              <input type="checkbox" name="timeOfDay" id="time-of-day-evening" value="Evening" required class="form-control checkbox timeOfDay" />
+              <input type="checkbox" name="timeOfDay" id="time-of-day-evening" value="Evening" required class="form-check-input checkbox timeOfDay" />
               <label for="time-of-day-evening">Evening</label>
             </div>
 
@@ -135,7 +135,7 @@
 
             <!--submit button-->
             <div class="col-12">
-              <input type="submit" name="submit" value="Volunteer Now" class="submit btn btn-primary" />
+              <input type="submit" name="submit" value="Volunteer Now" class="submit btn btn-primary" id="submit" />
             </div>
           </div>
         </form>
