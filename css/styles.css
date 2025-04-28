@@ -11,6 +11,8 @@ p {
 .blinn-fa-icon {font-size: 60px;
 color:rgb(221, 132, 191);}
 
+.blinn-fa-icon:hover {transform: scale(1.1);}
+
 .blinn-fa-container a {color: var(--accentColor)}
 
 .blinn-fa-container {
@@ -26,17 +28,5 @@ padding-left: 15px;}
 
 
 
-#custom-clip-path {
-width: 100%;
-height: 280px;
-background-color: var(--secondaryColor) !important;
-clip-path: polygon(100% 0, 0 18%, 0 0);
-position:relative;
-margin-top:1px
-}
 
-.cropped {width: 250px;
-height: 250px;
-margin-top: 15px;
-border: 10px solid var(--accentColor)!important;
-border-radius: 50%; }
+
