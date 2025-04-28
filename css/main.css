@@ -25,11 +25,8 @@ content: "\2014"
 }
 
 .cropped {
-    float: left;
-    width: 30%;
-
-}
-
-img {
-    width: 80%
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
