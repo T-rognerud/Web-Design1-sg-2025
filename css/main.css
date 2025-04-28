@@ -24,4 +24,12 @@ content: "\2014"
 
 }
 
-.cropped {align-content: center; border-radius: 8px; border-color: var(--accentColor); margin: auto; }
+.cropped {
+    float: left;
+    width: 30%;
+
+}
+
+img {
+    width: 80%
+}
