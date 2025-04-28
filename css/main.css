@@ -1,7 +1,7 @@
 h1,h2 {color: var(--accentColor) !important;}
 
    
-    .navbar {background-color:white !important}
+    .navbar {background-color:var(--secondaryColor) !important; text-decoration-color: var(--accentColor) !important;;}
 
     blockquote {
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,4 +24,4 @@ content: "\2014"
 
 }
 
-.cropped {align-content: center; border-radius: 8px; }
+.cropped {align-content: center; border-radius: 8px; border-color: var(--accentColor) margin: auto; }
