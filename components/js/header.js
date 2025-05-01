@@ -27,7 +27,7 @@ class Header extends HTMLElement {
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Category </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="gallery.html">Galleries</a></li>
-              <li><a class="dropdown-item" href="Worldbuilding.html"></a>Worldbuilding</li>
+                 <li><a class="dropdown-item" href="Worldbuilding.html">Worldbuilding</a></li>
               <li><a class="dropdown-item" href="#">Future Projects</a></li>
             </ul>
           </li>
