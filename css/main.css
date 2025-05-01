@@ -5,10 +5,10 @@ h1,h2 {color: var(--accentColor) !important;}
     .navbar a {color: var(--primaryColor) !important}
 
     .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;  /* Distributes items evenly with space around them */
-        align-items: center;          /* Centers items vertically */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+        justify-items: center;      /* Centers items horizontally within their cells */
+        align-items: center;      /* Centers items vertically within their cells */
       }
       
 .cropped { border:8px
@@ -19,10 +19,8 @@ h1,h2 {color: var(--accentColor) !important;}
 width: 250px;
 height:250px;
 border: 8px;
-border-left: 20px;
 }
 
 .img-other {width: 250px;
-    height:250px;
-    border: 8px;}
+    height:250px;}
 
