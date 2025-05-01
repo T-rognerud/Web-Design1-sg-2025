@@ -13,7 +13,9 @@ h1,h2 {color: var(--accentColor) !important;}
     margin-left: auto;
 }
 
-.img-button {width: 250px;
+.img-button {
+    align-self: center;
+width: 250px;
 height:250px;
 border: 10px;
 border-color: blue;}
