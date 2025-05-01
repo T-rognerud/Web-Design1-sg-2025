@@ -1,29 +1,9 @@
 h1,h2 {color: var(--accentColor) !important;}
 
    
-    .navbar {background-color:var(--secondaryColor) !important; }
-    .navbar a {color: white}
+    .navbar {background-color:rgb(241, 189, 218); }
+    .navbar a {color: var(--primaryColor) !important}
 
-    blockquote {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 18px;
-font-style: italic;
-margin: 0.25em 0px;
-padding: 0.35em 40px;
-line-height:1.45;
-    }
-    blockquote::before {
-        display: block;
-        padding-left: 10px;
-        font-size: 80px;
-        color: var(--accentColor);
-        content: "\201c";
-    }
-
-blockquote cite {
-content: "\2014"
-
-}
 
 .cropped {
     justify-content: space-around;
