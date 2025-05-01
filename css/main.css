@@ -17,5 +17,10 @@ h1,h2 {color: var(--accentColor) !important;}
 
 width: 250px;
 height:250px;
-border: 8px
+border: 8px;
+border-left: 20px;
 }
+
+.img-other {width: 250px;
+    height:250px;
+    border: 8px;}
