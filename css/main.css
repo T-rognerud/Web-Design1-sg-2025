@@ -14,8 +14,19 @@ h1,h2 {color: var(--accentColor) !important;}
 }
 
 .img-button {
-    align-self: center;
 width: 250px;
 height:250px;
 border: 10px;
 border-color: blue;}
+
+.img-shops {
+    grid-row: 1;
+}
+
+.img-other {
+    grid-row:2;
+}
+
+.img-gardens {
+    grid-row: 3;
+}
