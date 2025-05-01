@@ -2,7 +2,7 @@ h1,h2 {color: var(--accentColor) !important;}
 
    
     .navbar {background-color:var(--secondaryColor) !important; }
-    .navbar a {color: var(--accentColor)}
+    .navbar a {color: white}
 
     blockquote {
         font-family: Georgia, 'Times New Roman', Times, serif;
