@@ -10,17 +10,8 @@ h1,h2 {color: var(--accentColor) !important;}
         justify-items: center;      /* Centers items horizontally within their cells */
         align-items: center;      /* Centers items vertically within their cells */
       }
-      
-.cropped { border:8px
-}
 
-.img-button {
-
-width: 250px;
-height:250px;
-border: 8px;
-}
-
-.img-other {width: 250px;
-    height:250px;}
-
+      .img-button {
+        height: 250px;
+        width: 250px;
+      }
