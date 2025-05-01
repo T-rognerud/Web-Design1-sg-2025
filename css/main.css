@@ -14,7 +14,4 @@ h1,h2 {color: var(--accentColor) !important;}
       .img-button {
         height: 250px;
         width: 250px;
-        display: grid;
-        justify-items: center; 
-        align-items: center;
       }
