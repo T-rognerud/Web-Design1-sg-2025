@@ -4,13 +4,14 @@ h1,h2 {color: var(--accentColor) !important;}
     .navbar {background-color:rgb(241, 189, 218); }
     .navbar a {color: var(--primaryColor) !important}
 
-
-.cropped {
-    margin-left: auto;
-    align-items: auto;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;  /* Distributes items evenly with space around them */
+        align-items: center;          /* Centers items vertically */
+      }
+      
+.cropped { border:8px
 }
 
 .img-button {
@@ -24,3 +25,4 @@ border-left: 20px;
 .img-other {width: 250px;
     height:250px;
     border: 8px;}
+
